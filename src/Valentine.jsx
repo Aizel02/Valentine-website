@@ -44,14 +44,14 @@ export default function Valentine() {
       });
     }
 
-    if (next === 2) {
+    if (next === 4) {
       setModalData({
         img: arayko,
         autoClose: true,
       });
     }
 
-    if (next === 3) {
+    if (next === 5) {
       setModalData({
         img: memeUniverse,
         autoClose: true,
@@ -60,14 +60,14 @@ export default function Valentine() {
   };
 
   useEffect(() => {
-    if (noCount === 4) {
+    if (noCount === 7) {
       setModalData({
         img: sad,
         autoClose: true,
       });
     }
 
-    if (noCount === 5) {
+    if (noCount === 9) {
       setModalData({
         img: dinga,
         autoClose: true,
